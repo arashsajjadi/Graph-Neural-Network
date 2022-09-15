@@ -97,5 +97,29 @@ If our graph is weighted, the Laplacian is defined as $L:=D-W$ where $W$ is weig
 
 ![image](https://user-images.githubusercontent.com/47760229/190233166-61e24ad1-144f-46e2-aaaf-7934279b7109.png)
 
+The graph representation is a little complicated, allowing us to record more details. But anyway, graphs are very complex, and we want to find a more straightforward way to represent the data.
+
+**Embedding :**
+In mathematics, an embedding (or imbedding) is one instance of some mathematical structure contained within another instance, such as a group that is a subgroup.
+
+
+In topological graph theory, an embedding (also spelled imbedding) of a *graph* $G$ on a *surface* $\Sigma$ is a representation of $G$ on $\Sigma$  in which points of $\Sigma$  are associated with vertices and simple arcs (homeomorphic images of $[0,1]$ are associated with *edges* in such a way that:
+
+  - the endpoints of the arc associated with an edge $e$ are the points associated with the end vertices of $e$,
+  - no arcs include points associated with other vertices,
+  - two arcs never intersect at a point which is interior to either of the arcs.
+  
+Here a surface is a compact, connected $2$-manifold.
+
+![image](https://user-images.githubusercontent.com/47760229/190364593-9b9f6ed5-a60e-402f-bc04-b81914e51ed5.png)
+
+There are different encoding methods for this. You can see some of them in the table below.
+
+|    Encoding method   |            Coding idea            |
+|:--------------------:|:---------------------------------:|
+| Matrix factorization | Inner product of $Z^T_u Z_v$      |
+| look-up table        | Inner product of $Z^T_u Z_v$      |
+| Random walk          | Decode statistics of random walks |
+
 
 
