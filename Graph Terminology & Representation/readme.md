@@ -69,3 +69,33 @@ Using the first definition, the in-degrees of a vertex can be computed by summin
 | Directed Cayley graph of $S_4$                                                                                  | Coordinates are 0–23. (As the graph is directed, the matrix is not necessarily symmetric.)                      |
 
 **We can also use float values for the adjacency matrix, which shows how the connections between nodes are powerful**
+
+## Degree of graph (D)
+
+
+|                                                  Labeled graph                                                  |                                          Adjacency matrix & node labels                                         |
+|:---------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+| ![image](https://user-images.githubusercontent.com/47760229/190229873-1c8003cd-879f-45d8-b14e-26431a133a38.png) | ![image](https://user-images.githubusercontent.com/47760229/190229926-ce68a54b-029f-4030-88bb-cbb457826b8e.png) |
+
+The **Degree matrix(D)** is a *diagonal matrix* defining the number of connections per node
+
+![image](https://user-images.githubusercontent.com/47760229/190230594-8d47a28f-cadf-4c9a-89d8-1e1356fa89b5.png)
+
+Degree matrix
+
+## Laplacian of graph
+
+Laplacian matrix $L:= D-A$ where $D$ is the degree matrix and $A$ is the adjacency matrix of the graph.
+
+|                                                  Labelled graph                                                 |                                                  Degree matrix                                                  |                                                 Adjacency matrix                                                |                                                 Laplacian matrix                                                |
+|:---------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+| ![image](https://user-images.githubusercontent.com/47760229/190231354-9f5cf50c-39bd-47d7-8149-c72b8d4d5508.png) | ![image](https://user-images.githubusercontent.com/47760229/190231370-d45c7b47-9e16-440d-af32-69c85fe63f58.png) | ![image](https://user-images.githubusercontent.com/47760229/190231382-a39de8df-4c6c-44d2-bdb9-b4834da244fe.png) | ![image](https://user-images.githubusercontent.com/47760229/190231392-52add2f9-8e22-45ff-ace7-2da9ccd22df2.png) |
+
+If our graph is weighted, the Laplacian is defined as $L:=D-W$ where $W$ is weighted matrix.
+
+## Definition Of Graph Representation Learning
+
+![image](https://user-images.githubusercontent.com/47760229/190233166-61e24ad1-144f-46e2-aaaf-7934279b7109.png)
+
+
+
