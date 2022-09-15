@@ -121,5 +121,9 @@ There are different encoding methods for this. You can see some of them in the t
 | look-up table        | Inner product of $Z^T_u Z_v$      |
 | Random walk          | Decode statistics of random walks |
 
+-------
+## Using Torch and Torch Geometric for defining a graph
 
+Here is a simple example of defining a graph using Torch and Torch Geometry in the following notebook.
 
+[click here](https://github.com/arashsajjadi/Graph-Neural-Network/blob/main/Graph%20Terminology%20%26%20Representation/Workshop%20-%20Using%20Torch%20and%20Torch%20Geometric%20for%20defining%20a%20graph.ipynb)
