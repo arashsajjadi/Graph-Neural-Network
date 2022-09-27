@@ -25,17 +25,19 @@ There are also challenges for generalizing convolutional operators on graphs, wh
 <thead>
   <tr>
     <td rowspan="4"><img src="https://user-images.githubusercontent.com/47760229/192498838-cf9d7bab-4fbf-477a-87a8-aedcb744604f.png" width="400" height="300"></td>
-    <td>Challanges</td>
+    <td colspan="2">Challanges</td>
   </tr>
   <tr>
     <td>Number of neighbor nodes changes</td>
+    <td>We may have heterogeneous graph<br></td>
   </tr>
   <tr>
     <td>Distance between node changes</td>
+    <td>Node ordering can change (the Homorphism problem)</td>
   </tr>
   <tr>
     <td>Number of attributes can vary(features)</td>
+    <td></td>
   </tr>
 </thead>
 </table>
-
