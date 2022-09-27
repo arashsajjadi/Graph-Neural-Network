@@ -8,4 +8,8 @@ Convolutional Operation means for a given input we re-estimate it as the weighte
 
 
 
-https://setosa.io/ev/image-kernels/
+![Schematic-illustration-of-a-convolutional-operation-The-convolutional-kernel-shifts-over](https://user-images.githubusercontent.com/47760229/192607664-7b328fb0-f2ad-4add-b9c8-918a9c89cc3c.png)
+
+
+You can get more information about the effect of kernel selection from [this website](https://setosa.io/ev/image-kernels/).
+
