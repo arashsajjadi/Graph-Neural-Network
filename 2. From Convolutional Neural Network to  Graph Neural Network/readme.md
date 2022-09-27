@@ -13,3 +13,29 @@ Convolutional Operation means for a given input we re-estimate it as the weighte
 
 You can get more information about the effect of kernel selection from [this website](https://setosa.io/ev/image-kernels/).
 
+The methods I mentioned, named Matrix factorization, look-up table, and random walk, are not suitable options. The reason for this is as follows.
+
+  - **No parameter sharing:** Computationally expensive
+  - **No semantic information:** Feature nodes are not considered
+  - **Not inductive:** Cannot predict embedding for unseen data (Inherently transductive)  
+
+There are also challenges for generalizing convolutional operators on graphs, which you can see in the table below.
+
+<table>
+<thead>
+  <tr>
+    <td rowspan="4"><img src="https://user-images.githubusercontent.com/47760229/192498838-cf9d7bab-4fbf-477a-87a8-aedcb744604f.png" width="400" height="300"></td>
+    <td>Challanges</td>
+  </tr>
+  <tr>
+    <td>Number of neighbor nodes changes</td>
+  </tr>
+  <tr>
+    <td>Distance between node changes</td>
+  </tr>
+  <tr>
+    <td>Number of attributes can vary(features)</td>
+  </tr>
+</thead>
+</table>
+
